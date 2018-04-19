@@ -2,15 +2,15 @@ package com.company;
 
 import java.util.Random;
 
-public class RockyPlanet {
-    protected int surfaceTemp;
-    protected double size;
-    protected double habitability; //see as ratio to earth habitability
+public class RockyPlanet extends Planet{
+    private int surfaceTemp;
+    private double size;
+    private double habitability; //see as ratio to earth habitability
 
-    protected String dsc = "A rock planet";
-    protected String atmosphere = "Thin assorted gases"; //hydrogen, helium or Ice (or something made up)
-    protected String core= "Molten Metal"; //rocky, heavy metallic (iron mainly) or rare valuable materials
-    protected double age; //some billion years between 1 and 13 bn eg 5.32 'billion years'
+    private String dsc = "A rock planet";
+    private String atmosphere = "Thin assorted gases"; //hydrogen, helium or Ice (or something made up)
+    private String core= "Molten Metal"; //rocky, heavy metallic (iron mainly) or rare valuable materials
+    private double age; //some billion years between 1 and 13 bn eg 5.32 'billion years'
 
 
     public RockyPlanet(int standardSurfaceTemp, int seed){
@@ -20,13 +20,13 @@ public class RockyPlanet {
         chooseSize(rand);
         setAge(rand);
     }
-    protected void setHabitability(){
+    private void setHabitability(){
         this.habitability = 0.4;
     }
-    protected void chooseSize(Random rand){
+    private void chooseSize(Random rand){
         this.size = (rand.nextDouble()*2+0.2);
     }
-    protected void setAge(Random rand){
+    private void setAge(Random rand){
         this.age = (rand.nextDouble()*9)+3;
     }
 

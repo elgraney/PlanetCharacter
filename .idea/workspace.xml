@@ -49,11 +49,50 @@
       <file leaf-file-name="GasDwarf.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/GasDwarf.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+            <state relative-caret-position="204">
+              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
               <folding>
-                <element signature="e#635#636#0" expanded="true" />
-                <element signature="e#681#682#0" expanded="true" />
+                <element signature="e#562#563#0" expanded="true" />
+                <element signature="e#608#609#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Planet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Planet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="51" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="51" />
+              <folding>
+                <element signature="e#483#484#0" expanded="true" />
+                <element signature="e#529#530#0" expanded="true" />
+                <element signature="e#569#570#0" expanded="true" />
+                <element signature="e#601#602#0" expanded="true" />
+                <element signature="e#657#658#0" expanded="true" />
+                <element signature="e#705#706#0" expanded="true" />
+                <element signature="e#743#744#0" expanded="true" />
+                <element signature="e#773#774#0" expanded="true" />
+                <element signature="e#825#826#0" expanded="true" />
+                <element signature="e#869#870#0" expanded="true" />
+                <element signature="e#909#910#0" expanded="true" />
+                <element signature="e#941#942#0" expanded="true" />
+                <element signature="e#979#980#0" expanded="true" />
+                <element signature="e#1009#1010#0" expanded="true" />
+                <element signature="e#1059#1060#0" expanded="true" />
+                <element signature="e#1093#1094#0" expanded="true" />
+                <element signature="e#1124#1125#0" expanded="true" />
+                <element signature="e#1151#1152#0" expanded="true" />
+                <element signature="e#1190#1191#0" expanded="true" />
+                <element signature="e#1225#1226#0" expanded="true" />
+                <element signature="e#1255#1256#0" expanded="true" />
+                <element signature="e#1281#1282#0" expanded="true" />
+                <element signature="e#1318#1319#0" expanded="true" />
+                <element signature="e#1351#1352#0" expanded="true" />
+                <element signature="e#1382#1383#0" expanded="true" />
+                <element signature="e#1409#1410#0" expanded="true" />
+                <element signature="e#1439#1440#0" expanded="true" />
+                <element signature="e#1465#1466#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -62,30 +101,8 @@
       <file leaf-file-name="GasPlanet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/GasPlanet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-              <folding>
-                <element signature="e#807#808#0" expanded="true" />
-                <element signature="e#844#845#0" expanded="true" />
-                <element signature="e#886#887#0" expanded="true" />
-                <element signature="e#937#938#0" expanded="true" />
-                <element signature="e#975#976#0" expanded="true" />
-                <element signature="e#1025#1026#0" expanded="true" />
-                <element signature="e#1060#1061#0" expanded="true" />
-                <element signature="e#1094#1095#0" expanded="true" />
-                <element signature="e#1123#1124#0" expanded="true" />
-                <element signature="e#1150#1151#0" expanded="true" />
-                <element signature="e#1187#1188#0" expanded="true" />
-                <element signature="e#1222#1223#0" expanded="true" />
-                <element signature="e#1252#1253#0" expanded="true" />
-                <element signature="e#1278#1279#0" expanded="true" />
-                <element signature="e#1313#1314#0" expanded="true" />
-                <element signature="e#1346#1347#0" expanded="true" />
-                <element signature="e#1375#1376#0" expanded="true" />
-                <element signature="e#1402#1403#0" expanded="true" />
-                <element signature="e#1427#1428#0" expanded="true" />
-                <element signature="e#1453#1454#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -93,13 +110,13 @@
       <file leaf-file-name="RockyPlanet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/RockyPlanet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="42">
+              <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
               <folding>
-                <element signature="e#816#817#0" expanded="true" />
-                <element signature="e#855#856#0" expanded="true" />
-                <element signature="e#899#900#0" expanded="true" />
-                <element signature="e#952#953#0" expanded="true" />
+                <element signature="e#800#801#0" expanded="true" />
+                <element signature="e#839#840#0" expanded="true" />
+                <element signature="e#881#882#0" expanded="true" />
+                <element signature="e#934#935#0" expanded="true" />
                 <element signature="e#976#977#0" expanded="true" />
                 <element signature="e#1026#1027#0" expanded="true" />
                 <element signature="e#1188#1189#0" expanded="true" />
@@ -132,12 +149,14 @@
       <find>&quot;</find>
       <find>Gas</find>
       <find>private</find>
+      <find>protected</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
       <replace>Rock</replace>
       <replace>rock</replace>
       <replace>protected</replace>
+      <replace>private</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -148,10 +167,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/DRV.java" />
-        <option value="$PROJECT_DIR$/src/com/company/GasPlanet.java" />
-        <option value="$PROJECT_DIR$/src/com/company/RockyPlanet.java" />
         <option value="$PROJECT_DIR$/src/com/company/Chthonian.java" />
         <option value="$PROJECT_DIR$/src/com/company/PlanetCharacter.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Planet.java" />
+        <option value="$PROJECT_DIR$/src/com/company/RockyPlanet.java" />
+        <option value="$PROJECT_DIR$/src/com/company/GasPlanet.java" />
         <option value="$PROJECT_DIR$/src/com/company/GasDwarf.java" />
       </list>
     </option>
@@ -207,6 +227,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.company" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -255,12 +280,12 @@
       <updated>1524002192047</updated>
       <workItem from="1524002197813" duration="12527000" />
       <workItem from="1524138767310" duration="877000" />
-      <workItem from="1524142635192" duration="6949000" />
+      <workItem from="1524142635192" duration="9183000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20353000" />
+    <option name="totallyTimeSpent" value="22587000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="954" height="735" extended-state="0" />
@@ -279,7 +304,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22050716" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2196162" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -371,8 +396,8 @@
         <state relative-caret-position="238">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -413,8 +438,8 @@
         <state relative-caret-position="391">
           <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
           <folding>
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -430,52 +455,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/RockyPlanet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#816#817#0" expanded="true" />
-            <element signature="e#855#856#0" expanded="true" />
-            <element signature="e#899#900#0" expanded="true" />
-            <element signature="e#952#953#0" expanded="true" />
-            <element signature="e#976#977#0" expanded="true" />
-            <element signature="e#1026#1027#0" expanded="true" />
-            <element signature="e#1188#1189#0" expanded="true" />
-            <element signature="e#1223#1224#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/GasPlanet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#807#808#0" expanded="true" />
-            <element signature="e#844#845#0" expanded="true" />
-            <element signature="e#886#887#0" expanded="true" />
-            <element signature="e#937#938#0" expanded="true" />
-            <element signature="e#975#976#0" expanded="true" />
-            <element signature="e#1025#1026#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1094#1095#0" expanded="true" />
-            <element signature="e#1123#1124#0" expanded="true" />
-            <element signature="e#1150#1151#0" expanded="true" />
-            <element signature="e#1187#1188#0" expanded="true" />
-            <element signature="e#1222#1223#0" expanded="true" />
-            <element signature="e#1252#1253#0" expanded="true" />
-            <element signature="e#1278#1279#0" expanded="true" />
-            <element signature="e#1313#1314#0" expanded="true" />
-            <element signature="e#1346#1347#0" expanded="true" />
-            <element signature="e#1375#1376#0" expanded="true" />
-            <element signature="e#1402#1403#0" expanded="true" />
-            <element signature="e#1427#1428#0" expanded="true" />
-            <element signature="e#1453#1454#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -500,13 +479,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/RockyPlanet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <folding>
+            <element signature="e#800#801#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
+            <element signature="e#976#977#0" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
+            <element signature="e#1188#1189#0" expanded="true" />
+            <element signature="e#1223#1224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Planet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="51" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="51" />
+          <folding>
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
+            <element signature="e#909#910#0" expanded="true" />
+            <element signature="e#941#942#0" expanded="true" />
+            <element signature="e#979#980#0" expanded="true" />
+            <element signature="e#1009#1010#0" expanded="true" />
+            <element signature="e#1059#1060#0" expanded="true" />
+            <element signature="e#1093#1094#0" expanded="true" />
+            <element signature="e#1124#1125#0" expanded="true" />
+            <element signature="e#1151#1152#0" expanded="true" />
+            <element signature="e#1190#1191#0" expanded="true" />
+            <element signature="e#1225#1226#0" expanded="true" />
+            <element signature="e#1255#1256#0" expanded="true" />
+            <element signature="e#1281#1282#0" expanded="true" />
+            <element signature="e#1318#1319#0" expanded="true" />
+            <element signature="e#1351#1352#0" expanded="true" />
+            <element signature="e#1382#1383#0" expanded="true" />
+            <element signature="e#1409#1410#0" expanded="true" />
+            <element signature="e#1439#1440#0" expanded="true" />
+            <element signature="e#1465#1466#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/GasPlanet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/GasDwarf.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        <state relative-caret-position="204">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
           <folding>
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
           </folding>
         </state>
       </provider>
