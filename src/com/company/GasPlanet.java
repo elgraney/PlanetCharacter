@@ -3,14 +3,14 @@ package com.company;
 import java.util.Random;
 
 public class GasPlanet {
-    private int surfaceTemp;
-    private double size;
-    private double habitability; //see as ratio to earth habitability
+    protected int surfaceTemp;
+    protected double size;
+    protected double habitability; //see as ratio to earth habitability
 
-    private String dsc = "A gas planet";
-    private String atmosphere = "Various gases"; //hydrogen, helium or Ice (or something made up)
-    private String core= "Heavy metal"; //rocky, heavy metallic (iron mainly) or rare valuable materials
-    private double age; //some billion years between 1 and 13 bn eg 5.32 'billion years'
+    protected String dsc = "A gas planet";
+    protected String atmosphere = "Various gases"; //hydrogen, helium or Ice (or something made up)
+    protected String core= "Heavy metal"; //rocky, heavy metallic (iron mainly) or rare valuable materials
+    protected double age; //some billion years between 1 and 13 bn eg 5.32 'billion years'
 
 
     public GasPlanet(int standardSurfaceTemp, int seed){
@@ -20,13 +20,13 @@ public class GasPlanet {
         chooseSize(rand);
         setAge(rand);
     }
-    private void setHabitability(){
+    protected void setHabitability(){
         this.habitability = 0;
     }
-    private void chooseSize(Random rand){
+    protected void chooseSize(Random rand){
         this.size = (rand.nextDouble()*9)+3;
     }
-    private void setAge(Random rand){
+    protected void setAge(Random rand){
         this.age = (rand.nextDouble()*9)+3;
     }
 

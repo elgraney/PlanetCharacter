@@ -42,8 +42,10 @@ public class PlanetCharacter {
             chance = new int[]{75,0, 5, 0, 0, 5, 10, 5};//7,500,000 to 10,000,000 onwards
         }
         String returnValue = DRV.discreteRV(values, chance, seed);
+        GasPlanet gPlanet;
         switch (returnValue){
             case "chthonian":
+                gPlanet = new Chthonian(surfaceTemperature,seed);
                 break;
             case "gas dwarf":
                 break;
