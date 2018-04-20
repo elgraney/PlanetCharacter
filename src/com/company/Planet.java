@@ -16,8 +16,6 @@ public class Planet {
         surfaceTemp = standardSurfaceTemp;
     }
 
-    //SETTERS
-
     public void setSurfaceTemp(int surfaceTemp) {
         this.surfaceTemp = surfaceTemp;
     }
