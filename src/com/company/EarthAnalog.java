@@ -7,5 +7,6 @@ public class EarthAnalog extends GoldilocksPlanet{
         setDsc("A terrestrial planet similar to Earth in most aspects, generally ideal for colonisation.");
         setAtmosphere("Earth-like");
         setCore("Molten rock and metal");
+        setSurfaceTemp(rand.nextInt(40)+270);
     }
 }

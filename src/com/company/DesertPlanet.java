@@ -8,6 +8,7 @@ public class DesertPlanet extends GoldilocksPlanet{
         setDsc("A terrestrial planet largely covered in desert, rocks and arid landscapes. There is little surface water.");
         setAtmosphere("Earth-like");
         setCore("Molten rock and metal");
+        setSurfaceTemp(rand.nextInt(30)+290);
     }
 }
 

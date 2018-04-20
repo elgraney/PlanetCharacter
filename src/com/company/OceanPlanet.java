@@ -7,6 +7,7 @@ public class OceanPlanet extends GoldilocksPlanet {
         setDsc("A terrestrial planet largely covered in ocean with scattered islands.");
         setAtmosphere("Earth-like");
         setCore("Molten rock and metal");
+        setSurfaceTemp(rand.nextInt(50)+273);
     }
 }
 
