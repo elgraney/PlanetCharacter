@@ -8,7 +8,7 @@ public class PlanetCharacter {
     private int type;
     private int seed;
 
-    public PlanetCharacter(int distance, char sunType, int seed){
+    public Planet makePlanetCharacter(int distance, char sunType, int seed){
         this.seed = seed;
 
         //1. temp
@@ -34,7 +34,7 @@ public class PlanetCharacter {
             chance = new int[]{75,0, 5, 0, 0, 5, 10, 5};//7,500,000 to 10,000,000 onwards
         }
         String returnValue = DRV.discreteRV(values, chance, seed);
-        Planet planet;
+        Planet planet = null;
         switch (returnValue){
             case "chthonian":
                 planet = new Chthonian(surfaceTemperature,seed);
@@ -77,24 +77,33 @@ public class PlanetCharacter {
 
                 switch (returnValue){
                     case "ice":
+                        planet = new IcePlanet(surfaceTemperature,seed);
                         break;
                     case "silicate":
+                        planet = new SilicatePlanet(surfaceTemperature,seed);
                         break;
                     case "carbonaceous":
+                        planet = new CarbonaceousPlanet(surfaceTemperature,seed);
                         break;
                     case "toxic":
+                        planet = new ToxicPlanet(surfaceTemperature,seed);
                         break;
                     case "lava":
+                        planet = new LavaPlanet(surfaceTemperature,seed);
                         break;
                     case "desert":
+                        planet = new DesertPlanet(surfaceTemperature,seed);
                         break;
                     case "earth analog":
+                        planet = new EarthAnalog(surfaceTemperature,seed);
                         break;
                     case "ocean":
+                        planet = new OceanPlanet(surfaceTemperature,seed);
                         break;
                 }
                 break;
         }
+        return planet;
     }
 
     private double calcSurfaceTemp(int distance, char sunType){
