@@ -1,6 +1,6 @@
 package com.company;
 
-public class GasPlanet extends Planet{
+public abstract class GasPlanet extends Planet{
 
     public GasPlanet(int standardSurfaceTemp, int seed) {
         super(standardSurfaceTemp, seed);

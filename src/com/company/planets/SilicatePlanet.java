@@ -1,6 +1,8 @@
-package com.company;
+package com.company.planets;
 
-public class SilicatePlanet extends Planet{
+import com.company.Planet;
+
+public class SilicatePlanet extends Planet {
 
     public SilicatePlanet(int standardSurfaceTemp, int seed) {
         super(standardSurfaceTemp, seed);

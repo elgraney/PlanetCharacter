@@ -1,6 +1,6 @@
 package com.company;
 
-public class RockyPlanet extends Planet {
+public abstract class RockyPlanet extends Planet {
 
 
     public RockyPlanet(int standardSurfaceTemp, int seed) {

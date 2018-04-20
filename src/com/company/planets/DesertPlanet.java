@@ -1,6 +1,8 @@
-package com.company;
+package com.company.planets;
 
-public class DesertPlanet extends GoldilocksPlanet{
+import com.company.GoldilocksPlanet;
+
+public class DesertPlanet extends GoldilocksPlanet {
 
     public DesertPlanet(int standardSurfaceTemp, int seed) {
         super(standardSurfaceTemp, seed);

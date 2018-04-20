@@ -1,6 +1,8 @@
-package com.company;
+package com.company.planets;
 
-public class HotJupiter extends Planet{
+import com.company.GasPlanet;
+
+public class HotJupiter extends GasPlanet {
 
     public HotJupiter(int standardSurfaceTemp, int seed) {
         super(standardSurfaceTemp, seed);

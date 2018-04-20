@@ -1,7 +1,7 @@
 package com.company;
 import java.util.Random;
 
-public class Planet {
+public abstract class Planet {
     private int surfaceTemp;
     private double size;
     private double habitability;

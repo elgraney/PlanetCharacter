@@ -1,4 +1,6 @@
-package com.company;
+package com.company.planets;
+
+import com.company.GasPlanet;
 
 public class GasDwarf extends GasPlanet {
 

@@ -1,6 +1,7 @@
-package com.company;
+package com.company.planets;
+import com.company.RockyPlanet;
 
-public class ToxicPlanet extends RockyPlanet{
+public class ToxicPlanet extends RockyPlanet {
     public ToxicPlanet(int standardSurfaceTemp, int seed) {
         super(standardSurfaceTemp, seed);
         setHabitability(0.0);

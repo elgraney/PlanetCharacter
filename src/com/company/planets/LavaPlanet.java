@@ -1,7 +1,9 @@
-package com.company;
+package com.company.planets;
 
 
-public class LavaPlanet extends Planet{
+import com.company.Planet;
+
+public class LavaPlanet extends Planet {
 
     public LavaPlanet(int standardSurfaceTemp, int seed) {
         super(standardSurfaceTemp, seed);

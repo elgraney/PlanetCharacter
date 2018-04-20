@@ -1,6 +1,8 @@
-package com.company;
+package com.company.planets;
 
-public class IcePlanet extends RockyPlanet{
+import com.company.RockyPlanet;
+
+public class IcePlanet extends RockyPlanet {
     public IcePlanet(int standardSurfaceTemp, int seed) {
         super(standardSurfaceTemp, seed);
         setDsc("A frozen planet of ice and rock");

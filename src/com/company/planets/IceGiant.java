@@ -1,6 +1,8 @@
-package com.company;
+package com.company.planets;
 
-public class IceGiant extends Planet{
+import com.company.Planet;
+
+public class IceGiant extends Planet {
 
     public IceGiant(int standardSurfaceTemp, int seed) {
         super(standardSurfaceTemp, seed);

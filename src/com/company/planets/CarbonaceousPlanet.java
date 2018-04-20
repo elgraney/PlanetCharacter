@@ -1,6 +1,8 @@
-package com.company;
+package com.company.planets;
 
-public class CarbonaceousPlanet extends RockyPlanet{
+import com.company.RockyPlanet;
+
+public class CarbonaceousPlanet extends RockyPlanet {
     public CarbonaceousPlanet(int standardSurfaceTemp, int seed) {
         super(standardSurfaceTemp, seed);
         setDsc("A planet composed primarily of carbon based molecules");

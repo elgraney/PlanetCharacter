@@ -1,5 +1,7 @@
 package com.company;
 
+import com.company.planets.*;
+
 /**
  * Created by Matthew on 11/02/2018.
  */

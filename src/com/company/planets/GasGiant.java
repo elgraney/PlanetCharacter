@@ -1,6 +1,8 @@
-package com.company;
+package com.company.planets;
 
-public class GasGiant extends Planet{
+import com.company.Planet;
+
+public class GasGiant extends Planet {
 
     public GasGiant(int standardSurfaceTemp, int seed) {
         super(standardSurfaceTemp, seed);
