@@ -7,6 +7,6 @@ public class HotJupiter extends Planet{
         setDsc("A gas giant heated by its proximity to its home star");
         setAtmosphere("Hydrogen and helium");
         setCore("Dense iron core");
-        setSize((rand.nextDouble()*5)+9);
+        setSize(((int)(rand.nextDouble()*500)/100.0)+9);
     }
 }

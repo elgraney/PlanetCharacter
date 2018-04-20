@@ -1,13 +1,5 @@
 package com.company;
 
-import com.company.DRV;
-
-import javax.imageio.ImageIO;
-import java.awt.*;
-import java.awt.image.*;
-import java.io.File;
-import java.io.IOException;
-
 /**
  * Created by Matthew on 11/02/2018.
  */
@@ -42,29 +34,68 @@ public class PlanetCharacter {
             chance = new int[]{75,0, 5, 0, 0, 5, 10, 5};//7,500,000 to 10,000,000 onwards
         }
         String returnValue = DRV.discreteRV(values, chance, seed);
-        GasPlanet gPlanet;
+        Planet planet;
         switch (returnValue){
             case "chthonian":
-                gPlanet = new Chthonian(surfaceTemperature,seed);
+                planet = new Chthonian(surfaceTemperature,seed);
                 break;
             case "gas dwarf":
+                planet = new GasDwarf(surfaceTemperature,seed);
                 break;
             case "hot jupiter":
+                planet = new HotJupiter(surfaceTemperature,seed);
                 break;
             case "hot neptune":
+                planet = new HotNeptune(surfaceTemperature,seed);
                 break;
             case "ice giant":
+                planet = new IceGiant(surfaceTemperature,seed);
                 break;
             case "super jupiter":
+                planet = new SuperJupiter(surfaceTemperature,seed);
                 break;
             case "jovian":
+                planet = new GasGiant(surfaceTemperature,seed);
                 break;
             case "not":
+                //do temperature stuff
+                if(surfaceTemperature < 260){
+                    values = new String[]{"ice", "silicate", "carbonaceous", "toxic", "lava"};
+                    chance = new int[]{30,35,15,20,0};
+                    returnValue = DRV.discreteRV(values, chance, seed);
+                }
+                else if(surfaceTemperature >= 260 && 340>=surfaceTemperature){
+                    values = new String[]{"desert", "earth analog", "ocean"};
+                    chance = new int[]{30,40,30};
+                    returnValue = DRV.discreteRV(values, chance, seed);
+                }
+                else{
+                    values = new String[]{"ice", "silicate", "carbonaceous", "toxic", "lava"};
+                    chance = new int[]{0,50,30,10,30};
+                    returnValue = DRV.discreteRV(values, chance, seed);
+                }
+
+                switch (returnValue){
+                    case "ice":
+                        break;
+                    case "silicate":
+                        break;
+                    case "carbonaceous":
+                        break;
+                    case "toxic":
+                        break;
+                    case "lava":
+                        break;
+                    case "desert":
+                        break;
+                    case "earth analog":
+                        break;
+                    case "ocean":
+                        break;
+                }
                 break;
         }
     }
-
-
 
     private double calcSurfaceTemp(int distance, char sunType){
         int sunMod = 1;

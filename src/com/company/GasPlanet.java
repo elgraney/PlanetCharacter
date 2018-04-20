@@ -1,7 +1,5 @@
 package com.company;
 
-import java.util.Random;
-
 public class GasPlanet extends Planet{
 
     public GasPlanet(int standardSurfaceTemp, int seed) {

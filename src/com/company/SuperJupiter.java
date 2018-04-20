@@ -7,6 +7,6 @@ public class SuperJupiter extends Planet{
         setDsc("An abnormally large gas giant");
         setAtmosphere("Hydrogen and helium");
         setCore("not sure");
-        setSize((rand.nextDouble()*5)+12);
+        setSize(((int)(rand.nextDouble()*500)/100.0)+12);
     }
 }

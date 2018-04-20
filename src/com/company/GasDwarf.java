@@ -10,6 +10,6 @@ public class GasDwarf extends GasPlanet {
         setAtmosphere("Hydrogen and helium");
         setCore("Dense iron core");
         setHabitability(rand.nextInt(10) / 100); //has a potentially Earth sized core beneath the gaseous layer. But still way too hot.
-        setSize((rand.nextDouble()*4)+2);
+        setSize(((int)(rand.nextDouble()*400)/100.0)+2);
     }
 }
