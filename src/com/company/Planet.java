@@ -10,6 +10,7 @@ public abstract class Planet {
     private String core;
     private double age;
     protected Random rand;
+    private String type;
 
     public Planet(int standardSurfaceTemp, int seed){
         rand = new Random(seed);
@@ -44,6 +45,8 @@ public abstract class Planet {
         this.age = age;
     }
 
+    public void setType(String type){this.type = type;}
+
     //GETTERS
 
     public int getSurfaceTemp() {
@@ -73,4 +76,6 @@ public abstract class Planet {
     public double getAge() {
         return age;
     }
+
+    public String getType() { return type; }
 }
