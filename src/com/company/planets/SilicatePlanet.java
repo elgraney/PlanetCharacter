@@ -10,5 +10,6 @@ public class SilicatePlanet extends Planet {
         setAtmosphere("Thin layer of assorted gas");
         setCore("Rock and metal");
         setSize(((int)(rand.nextDouble()*280)/100.0)+0.2);
+        setType("Silicate Planet");
     }
 }

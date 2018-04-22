@@ -10,5 +10,6 @@ public class HotJupiter extends GasPlanet {
         setAtmosphere("Hydrogen and helium");
         setCore("Dense iron core");
         setSize(((int)(rand.nextDouble()*500)/100.0)+9);
+        setType("Hot Jupiter");
     }
 }

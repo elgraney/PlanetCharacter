@@ -10,5 +10,6 @@ public class GasGiant extends Planet {
         setAtmosphere("tough to say: all sorts of things");
         setCore("Don't know");
         setSize(((int)(rand.nextDouble()*500)/100.0)+9);
+        setType("Gas Giant");
     }
 }

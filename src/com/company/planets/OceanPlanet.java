@@ -10,6 +10,7 @@ public class OceanPlanet extends GoldilocksPlanet {
         setAtmosphere("Earth-like");
         setCore("Molten rock and metal");
         setSurfaceTemp(rand.nextInt(50)+273);
+        setType("Ocean Planet");
     }
 }
 

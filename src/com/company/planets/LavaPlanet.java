@@ -13,5 +13,6 @@ public class LavaPlanet extends Planet {
         setSize(((int)(rand.nextDouble()*280)/100.0)+0.2);
         setSurfaceTemp(rand.nextInt(50)+300);
         setHabitability((((int)(rand.nextDouble()*100)/100.0)+0.01)/6);
+        setType("Lava Planet");
     }
 }

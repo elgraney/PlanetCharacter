@@ -9,5 +9,6 @@ public class IcePlanet extends RockyPlanet {
         setAtmosphere("thin atmosphere of assorted gasses");
         setCore("Dense rock and ice");
         setSurfaceTemp(rand.nextInt(200)+73);
+        setType("Ice Planet");
     }
 }

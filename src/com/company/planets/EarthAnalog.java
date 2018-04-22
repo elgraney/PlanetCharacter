@@ -10,5 +10,7 @@ public class EarthAnalog extends GoldilocksPlanet {
         setAtmosphere("Earth-like");
         setCore("Molten rock and metal");
         setSurfaceTemp(rand.nextInt(40)+270);
+        setType("Earth Analog");
+
     }
 }

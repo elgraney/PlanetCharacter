@@ -8,5 +8,6 @@ public class ToxicPlanet extends RockyPlanet {
         setDsc("A terrestrial planet covered in toxic gas with harsh weather.");
         setAtmosphere("Toxic");
         setCore("Molten rock and metal");
+        setType("Toxic Planet");
     }
 }

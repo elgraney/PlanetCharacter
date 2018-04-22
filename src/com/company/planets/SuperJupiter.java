@@ -10,5 +10,6 @@ public class SuperJupiter extends Planet {
         setAtmosphere("Hydrogen and helium");
         setCore("not sure");
         setSize(((int)(rand.nextDouble()*500)/100.0)+12);
+        setType("Super Jupiter");
     }
 }

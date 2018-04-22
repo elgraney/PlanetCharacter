@@ -11,6 +11,7 @@ public class DesertPlanet extends GoldilocksPlanet {
         setAtmosphere("Earth-like");
         setCore("Molten rock and metal");
         setSurfaceTemp(rand.nextInt(30)+290);
+        setType("Desert Planet");
     }
 }
 

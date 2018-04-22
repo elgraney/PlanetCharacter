@@ -9,5 +9,6 @@ public class CarbonaceousPlanet extends RockyPlanet {
         setAtmosphere("thin assorted gases");
         setCore("Carbon based solids");
         setSize(((int)(rand.nextDouble()*300)/100)+3);
+        setType("Carbonaceous Planet");
     }
 }
